@@ -7,9 +7,12 @@ Plantilla API utilizada en un proyecto reciente, la cual tiene como función cum
 ```sh
 $ git clone https://github.com/kevjo95/portafolio.git
 $ cd portafolio/api_template
-$ node install
+$ npm install
 $ node index.js
 ```
+#### Requisitos
+- El servicio de MySQL debe estar corriendo, con el esquema usado en el archivo de conexion api_template/conexion.js
+- Es necesario tener instalado previamente [Node.js](https://nodejs.org/en/)
 
 #### > HTML Marketing 
 Se muestra un ejemplo del estilo y la linea de diseño con la cual me encuentro familiarizado, la experiencia de usuario es personalizada de acorde al producto que se esta promocionando.
@@ -22,4 +25,4 @@ cd portafolio/html_marketing/ejemplo_verano.html
 
 Ejemplo en el que se respetan los 160 caracteres incluyendo un Call To Action:
 
-BAC CREDOMATIC: Recibe 3 pases al cine + 3 combos al suscribirte al programa de Pagos Automaticos con tu tarjeta BAC Credomatic aqui http://baccomh.com/29ybb
+BAC CREDOMATIC: Recibe 3 pases al cine + 3 combos al suscribirte al programa de Pagos Automaticos con tu tarjeta BAC Credomatic aqui [http://baccomh.com/29ybb](http://baccomh.com/29ybb)
